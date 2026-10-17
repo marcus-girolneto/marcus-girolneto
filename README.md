@@ -34,9 +34,9 @@ At **PagBank**, helped lead the modernization of a monolithic application into m
 
 ---
 
-## Selected projects
+## Selected repositories
 
-These independent projects demonstrate backend design, data integrity, concurrency, security and operational thinking. Each repository includes setup instructions, design decisions and tests.
+The repositories pinned on this profile highlight two sides of my work: production protocol and AI security systems, plus independent backend projects built to demonstrate design, reliability and data integrity.
 
 | Project | What it demonstrates |
 | --- | --- |
@@ -44,6 +44,13 @@ These independent projects demonstrate backend design, data integrity, concurren
 | [**Hookrelay**](https://github.com/marcus-girolneto/hookrelay) | Durable webhook delivery with HMAC signatures, idempotency, retries with jitter, dead-letter replay and multi-instance workers using PostgreSQL `SKIP LOCKED`. Go. |
 | [**Witness**](https://github.com/marcus-girolneto/witness) | Tamper-evident transparency log with RFC 6962 Merkle proofs, Ed25519 signed checkpoints, crash-safe storage and a monitor for forks and split views. Go. |
 | [**Beacon**](https://github.com/marcus-girolneto/beacon) | Privacy-friendly event collection with batching, backpressure, PostgreSQL `COPY` and attribution. Go. |
+| [**Tessellation**](https://github.com/Constellation-Labs/tessellation) | Constellation's Scala 2.13 node software: hierarchical DAG consensus, Layer 0 and Layer 1 validators, and a production distributed ledger. My contributions span consensus, recovery, synchronization, state proofs and storage performance. |
+| [**Gate Connect**](https://github.com/Constellation-Labs/gate-connect-app) | Cross-platform desktop app and CLI that connect AI developer tools to Constellation Gate while keeping credentials in the operating system's secure credential store. |
+
+### More independent projects
+
+| Project | What it demonstrates |
+| --- | --- |
 | [**Linkpulse**](https://github.com/marcus-girolneto/linkpulse) | Concurrent broken-link checker with per-host rate limits, robots.txt support and CI-ready reports. Go. |
 | [**Audit Trail Lab**](https://github.com/marcus-girolneto/audit-trail-lab) | Hash-chained audit records, trusted checkpoints and adversarial verification tests. TypeScript. |
 

@@ -60,7 +60,12 @@ Production-style Go services and tools, each with CI, race-tested concurrency, f
 
 ### TypeScript
 
-#### [Audit Trail Lab](https://github.com/marcus-girolneto/audit-trail-lab)
+#### [Ledger](https://github.com/marcus-girolneto/ledger)
+Double-entry ledger service with idempotent postings, reversals and concurrency-safe balances. Core invariants (balanced transactions, append-only history, no overdrafts) are enforced by PostgreSQL itself, and 110 tests include concurrent withdrawals and duplicate-request races.
+
+`TypeScript` · `Node.js` · `Fastify` · `PostgreSQL` · `React` · `Docker`
+
+### [Audit Trail Lab](https://github.com/marcus-girolneto/audit-trail-lab)
 Independent TypeScript study of tamper-evident audit records: SHA-256 hash chains, trusted checkpoints, and adversarial verification tests covering modification, reordering, insertion, truncation, and full-chain rewrites. Documents its threat model and limits explicitly. CI runs type checking and the full test suite.
 
 `TypeScript` · `Node.js` · `Cryptographic hashing` · `Security testing`

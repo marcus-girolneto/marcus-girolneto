@@ -25,11 +25,18 @@ Helped lead the modernization of a monolithic application into microservices. Wo
 ### Saipos & ZG Soluções · Product development
 Delivered features and tested bug fixes, investigated customer-reported issues, and applied maintainable development practices. At Saipos, also optimized PostgreSQL and Oracle queries.
 
+## Projects
+
+### [Audit Trail Lab](https://github.com/marcus-girolneto/audit-trail-lab)
+Independent TypeScript study of tamper-evident audit records: SHA-256 hash chains, trusted checkpoints, and adversarial verification tests covering modification, reordering, insertion, truncation, and full-chain rewrites. Documents its threat model and limits explicitly. CI runs type checking and the full test suite.
+
+`TypeScript` · `Node.js` · `Cryptographic hashing` · `Security testing`
+
 ## Engineering toolkit
 
 | Frontend | Backend | Data & delivery |
 | :--- | :--- | :--- |
-| TypeScript · JavaScript | Node.js · Java · Kotlin · Groovy | PostgreSQL · MySQL · Oracle · NoSQL |
+| TypeScript · JavaScript | Node.js · Java · Kotlin · Scala · Groovy | PostgreSQL · MySQL · Oracle · NoSQL |
 | React · AngularJS | APIs · Microservices | AWS · CI/CD · Jenkins |
 | HTML · CSS | SOLID · Automated testing | Git · Production maintenance |
 

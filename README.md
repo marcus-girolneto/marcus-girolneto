@@ -1,41 +1,51 @@
 # Marcus Girolneto
 
-**Senior Software Engineer · Full-stack systems · Blockchain · AI security**
+### Senior Software Engineer
+**Full-stack development · Fintech & blockchain · AI security infrastructure**
 
-I build software across application interfaces, backend services, and infrastructure. My experience spans fintech, decentralized applications, and AI systems, with a focus on security, reliability, and maintainable delivery.
+I turn complex technical requirements into working software—from user-facing applications and backend services to testing, deployment, and maintenance. My experience spans financial technology, decentralized applications, and AI infrastructure.
 
-Based in Brazil · Open to full-time opportunities with international teams
+**Based in Brazil. Open to full-time remote opportunities with international teams.**
 
-[LinkedIn](https://www.linkedin.com/in/marcusgirolneto/)
+[Connect on LinkedIn →](https://www.linkedin.com/in/marcusgirolneto/)
 
-## Engineering experience
+---
 
-- **Constellation Network:** contributed to blockchain and AI infrastructure, including Constellation Gate. Delivered its security system and used AI-generated benchmarks to evaluate behavior and guide improvements.
-- **Lattice Gateway and Dor Technologies:** worked across frontend applications, backend services, and data integration within the Constellation ecosystem.
-- **PagSeguro PagBank:** helped lead a monolith-to-microservices refactoring effort while delivering and maintaining application functionality.
-- **Saipos and ZG Soluções:** developed product features, investigated customer-reported issues, wrote automated tests, and worked on application and database maintenance.
+## Selected experience
 
-Most of this work lives in employer-owned repositories. I describe my contributions here without reproducing proprietary code or internal data.
+### Constellation Network · AI security & blockchain
+Contributed to Constellation Gate, an AI gateway combining security controls, cost optimization, and verifiable audit trails. Delivered its security system and used AI-generated benchmarks to measure effectiveness and guide improvements.
 
-## Technical focus
+### Lattice Gateway & Dor Technologies · Full-stack engineering
+Worked across frontend applications, backend services, and data integration within the Constellation ecosystem, including decentralized finance applications at Lattice.
 
-| Area | Technologies and practices |
-| --- | --- |
-| Frontend | TypeScript, JavaScript, React, AngularJS |
-| Backend | Node.js, Java, Kotlin, Groovy, APIs, microservices |
-| Data | PostgreSQL, MySQL, Oracle, NoSQL |
-| Delivery | AWS, CI/CD, Jenkins, automated testing |
-| Current interests | AI security evaluation, verifiable records, reliable distributed applications |
+### PagSeguro PagBank · Financial technology
+Helped lead the modernization of a monolithic application into microservices. Worked across implementation, deployment, and maintenance using Node.js, TypeScript, Java, Kotlin, Micronaut, and Jenkins.
 
-## How I work
+### Saipos & ZG Soluções · Product development
+Delivered features and tested bug fixes, investigated customer-reported issues, and applied maintainable development practices. At Saipos, also optimized PostgreSQL and Oracle queries.
 
-- Understand the user and business problem before choosing an implementation.
-- Make trade-offs explicit and keep changes reviewable.
-- Validate AI-assisted work with code review, tests, and independent checks.
-- Treat failure cases, operational behavior, and maintainability as part of delivery.
+## Engineering toolkit
 
-## About the repositories
+| Frontend | Backend | Data & delivery |
+| :--- | :--- | :--- |
+| TypeScript · JavaScript | Node.js · Java · Kotlin · Groovy | PostgreSQL · MySQL · Oracle · NoSQL |
+| React · AngularJS | APIs · Microservices | AWS · CI/CD · Jenkins |
+| HTML · CSS | SOLID · Automated testing | Git · Production maintenance |
 
-This account includes earlier coursework and technical exercises as well as personal projects. Learning repositories are part of my history, not a representation of the full scope of my professional work. New portfolio work will be clearly labeled as independent demonstrations, with tests, reproducible setup, and documented limitations.
+## What I bring to a team
 
-I hold a Computer Engineering degree from PUC-GO.
+- **End-to-end thinking:** connect product requirements, application behavior, services, and data.
+- **Practical architecture:** balance delivery needs with security, reliability, and maintainability.
+- **Evidence over assumptions:** use tests and benchmarks to evaluate behavior and guide improvements.
+- **Responsible AI-assisted development:** review and validate generated work rather than treating it as a source of truth.
+
+## Background
+
+Computer Engineering graduate from **PUC-GO**. Professional experience across engineering teams at Constellation Network, Lattice Gateway, Dor Technologies, PagBank, FCamara, Saipos, and ZG Soluções.
+
+Much of my professional work is in employer-owned repositories. This profile summarizes my contributions without disclosing proprietary code or internal data.
+
+---
+
+**Hiring for a senior full-stack, backend, or AI infrastructure role?** [Let's talk.](https://www.linkedin.com/in/marcusgirolneto/)

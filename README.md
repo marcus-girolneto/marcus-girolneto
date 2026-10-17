@@ -13,12 +13,19 @@ I turn complex technical requirements into working software—from user-facing a
 
 ## Selected experience
 
-### Constellation Network · Creator & technical lead of Constellation Gate
-Designed and built [Constellation Gate](https://constellationnetwork.io) from the ground up: a multi-tenant security gateway for AI applications and agents with prompt-injection detection, sensitive-data scanning, prompt compression, response caching and cryptographically verifiable audit records. Owned the architecture, software, infrastructure and database, and coordinated the engineering team through production.
+### Constellation Network · Senior Software Engineer | Protocol Engineer
+Two areas of ownership: the Tessellation blockchain protocol and the networks running on it, and Constellation Gate, an AI security gateway I created.
 
-Co-authored the [Gate AI LLM Security Benchmark](https://constellationnetwork.io/papers/gate-ai-prompt-injection-benchmark.pdf) (with Ryle Goehausen, 2026): across 16 public benchmarks (12,111 samples), Gate reaches **97.4% F1 at a 1% false-positive rate** and ranks #1 on 8 of the ranked datasets against published competitors.
+**Blockchain protocol & network operations**
+- Key technical voice on [Tessellation](https://github.com/Constellation-Labs/tessellation), Constellation's core Scala protocol (267 merged PRs): consensus, snapshot rollback and recovery, L1 sync, state proofs, delegated staking and Merkle Patricia Trie performance.
+- Kept Constellation's networks running in production: provisioned infrastructure, built monitoring and auto-restart systems, prevented and debugged incidents, and recovered networks from failures such as a mainnet restart loop.
+- Worked directly with node operators and partner teams running their own metagraphs, and built tooling that made integration easier, including the [Euclid](https://github.com/Constellation-Labs/euclid-development-environment) CLI for local and remote metagraph deployment.
+- Built and operated production metagraphs, including a DEX ([PacaSwap](https://github.com/Constellation-Labs/pacaswap-metagraph)) and reward systems for [Dor](https://github.com/Constellation-Labs/dor-metagraph) and [Elpaca](https://github.com/Constellation-Labs/elpaca-metagraph).
 
-Also a protocol engineer on Tessellation, Constellation's core Scala protocol (267 merged PRs).
+**Constellation Gate · creator, later tech lead**
+- Designed and built [Constellation Gate](https://constellationnetwork.io) from the ground up: a multi-tenant security gateway for AI applications and agents with prompt-injection detection, sensitive-data scanning, prompt compression, response caching and cryptographically verifiable audit records.
+- Built the architecture, software, infrastructure and database, then took over leading the team as the product grew.
+- Co-authored the [Gate AI LLM Security Benchmark](https://constellationnetwork.io/papers/gate-ai-prompt-injection-benchmark.pdf) (with Ryle Goehausen, 2026): 97.4% F1 at a 1% false-positive rate across 16 public benchmarks (12,111 samples), ranking #1 on 8 datasets against published competitors.
 
 ### Lattice Gateway & Dor Technologies · Full-stack engineering
 Worked across frontend applications, backend services, and data integration within the Constellation ecosystem, including decentralized finance applications at Lattice.

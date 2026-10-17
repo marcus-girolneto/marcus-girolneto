@@ -90,7 +90,6 @@ Independent TypeScript study of tamper-evident audit records: SHA-256 hash chain
 - **End-to-end thinking:** connect product requirements, application behavior, services, and data.
 - **Practical architecture:** balance delivery needs with security, reliability, and maintainability.
 - **Evidence over assumptions:** use tests and benchmarks to evaluate behavior and guide improvements.
-- **Responsible AI-assisted development:** review and validate generated work rather than treating it as a source of truth.
 
 ## Background
 

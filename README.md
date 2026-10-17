@@ -13,8 +13,12 @@ I turn complex technical requirements into working software—from user-facing a
 
 ## Selected experience
 
-### Constellation Network · AI security & blockchain
-Contributed to Constellation Gate, an AI gateway combining security controls, cost optimization, and verifiable audit trails. Delivered its security system and used AI-generated benchmarks to measure effectiveness and guide improvements.
+### Constellation Network · Creator & technical lead of Constellation Gate
+Designed and built [Constellation Gate](https://constellationnetwork.io) from the ground up: a multi-tenant security gateway for AI applications and agents with prompt-injection detection, sensitive-data scanning, prompt compression, response caching and cryptographically verifiable audit records. Owned the architecture, software, infrastructure and database, and coordinated the engineering team through production.
+
+Co-authored the [Gate AI LLM Security Benchmark](https://constellationnetwork.io/papers/gate-ai-prompt-injection-benchmark.pdf) (with Ryle Goehausen, 2026): across 16 public benchmarks (12,111 samples), Gate reaches **97.4% F1 at a 1% false-positive rate** and ranks #1 on 8 of the ranked datasets against published competitors.
+
+Also a protocol engineer on Tessellation, Constellation's core Scala protocol (267 merged PRs).
 
 ### Lattice Gateway & Dor Technologies · Full-stack engineering
 Worked across frontend applications, backend services, and data integration within the Constellation ecosystem, including decentralized finance applications at Lattice.

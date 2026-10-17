@@ -25,6 +25,19 @@ Helped lead the modernization of a monolithic application into microservices. Wo
 ### Saipos & ZG Soluções · Product development
 Delivered features and tested bug fixes, investigated customer-reported issues, and applied maintainable development practices. At Saipos, also optimized PostgreSQL and Oracle queries.
 
+## Open-source contributions
+
+**600+ merged pull requests** to public [Constellation-Labs](https://github.com/Constellation-Labs) repositories (2022–2026):
+
+| Repository | What it is | Merged PRs |
+| :--- | :--- | ---: |
+| [tessellation](https://github.com/Constellation-Labs/tessellation/pulls?q=is%3Apr+author%3Amarcus-girolneto+is%3Amerged) | Core Constellation protocol (Scala) | 267 |
+| [pacaswap-metagraph](https://github.com/Constellation-Labs/pacaswap-metagraph/pulls?q=is%3Apr+author%3Amarcus-girolneto+is%3Amerged) | DEX metagraph | 110 |
+| [dor-metagraph](https://github.com/Constellation-Labs/dor-metagraph/pulls?q=is%3Apr+author%3Amarcus-girolneto+is%3Amerged) | Dor Technologies metagraph | 106 |
+| [euclid-development-environment](https://github.com/Constellation-Labs/euclid-development-environment/pulls?q=is%3Apr+author%3Amarcus-girolneto+is%3Amerged) | Metagraph developer tooling | 38 |
+| [elpaca-metagraph](https://github.com/Constellation-Labs/elpaca-metagraph/pulls?q=is%3Apr+author%3Amarcus-girolneto+is%3Amerged) | Metagraph application | 30 |
+| [metagraph-examples](https://github.com/Constellation-Labs/metagraph-examples/pulls?q=is%3Apr+author%3Amarcus-girolneto+is%3Amerged) · [snapshot-streaming](https://github.com/Constellation-Labs/snapshot-streaming/pulls?q=is%3Apr+author%3Amarcus-girolneto+is%3Amerged) · [monitoring tools](https://github.com/Constellation-Labs/metagraph-monitoring-tools/pulls?q=is%3Apr+author%3Amarcus-girolneto+is%3Amerged) · [gate-connect-app](https://github.com/Constellation-Labs/gate-connect-app/pulls?q=is%3Apr+author%3Amarcus-girolneto+is%3Amerged) | Examples, data streaming, monitoring, Gate client | 50+ |
+
 ## Projects
 
 ### [Audit Trail Lab](https://github.com/marcus-girolneto/audit-trail-lab)

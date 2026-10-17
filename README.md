@@ -44,7 +44,23 @@ Delivered features and tested bug fixes, investigated customer-reported issues, 
 
 ## Projects
 
-### [Audit Trail Lab](https://github.com/marcus-girolneto/audit-trail-lab)
+### Go
+
+Production-style Go services and tools, each with CI, race-tested concurrency, fuzzing, benchmarks measured on real hardware, and a README that documents design decisions and trade-offs.
+
+| Project | What it is | Highlights |
+| :--- | :--- | :--- |
+| [**hookrelay**](https://github.com/marcus-girolneto/hookrelay) | Reliable webhook delivery service | At-least-once delivery, exponential backoff with jitter, Standard Webhooks HMAC signatures, idempotency keys, Postgres `SKIP LOCKED` workers safe across instances |
+| [**witness**](https://github.com/marcus-girolneto/witness) | Tamper-evident transparency log | RFC 6962 Merkle inclusion and consistency proofs, Ed25519 signed checkpoints, crash-safe storage, monitor that detects forks and split views |
+| [**beacon**](https://github.com/marcus-girolneto/beacon) | Privacy-friendly analytics event collector | Channel-based batching with backpressure, Postgres `COPY` sink, UTM and channel attribution, rotating-salt visitor hashing |
+| [**utmly**](https://github.com/marcus-girolneto/utmly) | Campaign link shortener with click analytics | UTM builder, open-redirect protection, async batched click recording, QR codes, OpenAPI spec |
+| [**linkpulse**](https://github.com/marcus-girolneto/linkpulse) | Concurrent broken-link checker CLI | Worker pool with per-host rate limits, robots.txt, HEAD-then-GET checks, JSON/Markdown reports for CI, cross-platform releases |
+
+`Go` · `PostgreSQL` · `Concurrency` · `Distributed systems` · `Cryptography` · `Docker` · `GitHub Actions`
+
+### TypeScript
+
+#### [Audit Trail Lab](https://github.com/marcus-girolneto/audit-trail-lab)
 Independent TypeScript study of tamper-evident audit records: SHA-256 hash chains, trusted checkpoints, and adversarial verification tests covering modification, reordering, insertion, truncation, and full-chain rewrites. Documents its threat model and limits explicitly. CI runs type checking and the full test suite.
 
 `TypeScript` · `Node.js` · `Cryptographic hashing` · `Security testing`
@@ -53,7 +69,7 @@ Independent TypeScript study of tamper-evident audit records: SHA-256 hash chain
 
 | Frontend | Backend | Data & delivery |
 | :--- | :--- | :--- |
-| TypeScript · JavaScript | Node.js · Java · Kotlin · Scala · Groovy | PostgreSQL · MySQL · Oracle · NoSQL |
+| TypeScript · JavaScript | Go · Node.js · Java · Kotlin · Scala · Groovy | PostgreSQL · MySQL · Oracle · NoSQL |
 | React · AngularJS | APIs · Microservices | AWS · CI/CD · Jenkins |
 | HTML · CSS | SOLID · Automated testing | Git · Production maintenance |
 

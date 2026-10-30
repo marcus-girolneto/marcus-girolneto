@@ -1,75 +1,69 @@
-# Marcus Girolneto
+# Marcus Girolneto Sousa
 
-### Specialist Software Engineer · Protocol Engineer
-**Backend & distributed systems · Blockchain infrastructure · AI security**
+### Senior Software Engineer · Backend, Distributed Systems & AI Security
 
-I build and operate software for financial applications, blockchain networks and AI security. My work spans hands-on product engineering, protocol development, production reliability and technical leadership.
+I build backend systems that have to stay correct under load and under attack: payments, distributed protocols and AI security. Nine years in, I still write code every day and I also lead.
 
-At Constellation Network, I created Constellation Gate, an AI security gateway, and later led its engineering team. In parallel, I work on Tessellation, the network's core Scala protocol, and the production infrastructure around it. Previously, I helped lead a monolith-to-microservices modernization at PagBank.
+At **Constellation Network** (2022–2026) I designed and built **Constellation Gate** from zero, a multi-tenant security gateway for LLM applications and AI agents, and then led its engineering team. I co-authored its public benchmark: **97.4% F1 at a 1% false-positive rate** across 16 datasets, first on 8 of them against published competitors. In parallel I worked on the network's core Scala consensus protocol and handled incidents on a live network. Before that I helped lead a monolith-to-microservices migration at **PagBank**.
 
-**Based in Brazil · Fluent English · Open to remote opportunities with international teams**
+I'm currently building **Akibo**, an AI personal-finance assistant (closed source, see below).
 
-[LinkedIn](https://www.linkedin.com/in/marcusgirolneto/) · [Email](mailto:marcus.girolneto@gmail.com)
+**Brazil (UTC-3) · Fluent English · Open to senior backend, platform and AI infrastructure roles, remote or relocation**
 
----
-
-## Selected impact
-
-### Constellation Network · Specialist Software Engineer & Protocol Engineer
-
-**AI security product — Constellation Gate**
-- Created the product from the ground up, owning architecture, software, infrastructure and database; later led the team as it grew.
-- Built a multi-tenant security gateway for AI applications and agents, with prompt-injection detection, sensitive-data scanning, prompt compression, response caching and verifiable audit records.
-- Co-authored the public [Gate AI LLM Security Benchmark](https://constellationnetwork.io/papers/gate-ai-prompt-injection-benchmark.pdf): 97.4% F1 at a 1% false-positive rate across 16 public benchmarks (12,111 samples), ranking first on 8 datasets against published competitors.
-
-**Blockchain protocol & network reliability**
-- Contributed **267 merged pull requests** to [Tessellation](https://github.com/Constellation-Labs/tessellation), Constellation's core Scala protocol, across consensus, snapshot recovery, L1 sync, state proofs, delegated staking and Merkle Patricia Trie performance.
-- Contributed **627 merged pull requests** across Constellation-Labs public repositories (2022–2026), spanning protocol engineering, metagraph applications, developer tooling and network operations.
-- Built and operated production metagraphs and deployment, monitoring, auto-restart and snapshot-streaming tools; worked directly with node operators and partner teams.
-- Investigated production failures, including a mainnet restart loop, and delivered recovery and release fixes.
-
-### Earlier experience
-
-At **PagBank**, helped lead the modernization of a monolithic application into microservices and worked across implementation, deployment and maintenance with Node.js, TypeScript, Java, Kotlin, Micronaut and Jenkins. Earlier roles at Saipos and ZG Soluções included product development, automated testing, customer issue resolution and relational database query optimization.
+[LinkedIn](https://www.linkedin.com/in/marcusgirolneto/) · [Email](mailto:marcus.girolneto@gmail.com) · [Gate AI benchmark paper](https://constellationnetwork.io/papers/gate-ai-prompt-injection-benchmark.pdf)
 
 ---
 
-## Selected repositories
+## What I work on
 
-The repositories pinned on this profile highlight two sides of my work: production protocol and AI security systems, plus independent backend projects built to demonstrate design, reliability and data integrity.
+**Correctness and data integrity.** Double-entry invariants enforced by the database, idempotent writes, concurrency tests that try to break balances.
 
-| Project | What it demonstrates |
-| --- | --- |
-| [**Ledger**](https://github.com/marcus-girolneto/ledger) | Double-entry accounting service. PostgreSQL enforces balanced postings, immutable history and balance rules; idempotency and concurrency tests cover duplicate requests and competing withdrawals. TypeScript, Fastify, PostgreSQL, React. |
-| [**Hookrelay**](https://github.com/marcus-girolneto/hookrelay) | Durable webhook delivery with HMAC signatures, idempotency, retries with jitter, dead-letter replay and multi-instance workers using PostgreSQL `SKIP LOCKED`. Go. |
-| [**Witness**](https://github.com/marcus-girolneto/witness) | Tamper-evident transparency log with RFC 6962 Merkle proofs, Ed25519 signed checkpoints, crash-safe storage and a monitor for forks and split views. Go. |
-| [**Beacon**](https://github.com/marcus-girolneto/beacon) | Privacy-friendly event collection with batching, backpressure, PostgreSQL `COPY` and attribution. Go. |
-| [**Tessellation**](https://github.com/Constellation-Labs/tessellation) | Constellation's Scala 2.13 node software: hierarchical DAG consensus, Layer 0 and Layer 1 validators, and a production distributed ledger. My contributions span consensus, recovery, synchronization, state proofs and storage performance. |
-| [**Gate Connect**](https://github.com/Constellation-Labs/gate-connect-app) | Cross-platform desktop app and CLI that connect AI developer tools to Constellation Gate while keeping credentials in the operating system's secure credential store. |
+**Reliability under failure.** Retries with jitter, dead-letter replay, multi-instance workers, crash-safe storage, state recovery on a live network.
 
-### More independent projects
-
-| Project | What it demonstrates |
-| --- | --- |
-| [**Linkpulse**](https://github.com/marcus-girolneto/linkpulse) | Concurrent broken-link checker with per-host rate limits, robots.txt support and CI-ready reports. Go. |
-| [**Audit Trail Lab**](https://github.com/marcus-girolneto/audit-trail-lab) | Hash-chained audit records, trusted checkpoints and adversarial verification tests. TypeScript. |
+**Security for AI systems.** Prompt-injection defense, sensitive-data scanning, verifiable audit trails, permission testing for agents.
 
 ---
 
-## Technical focus
+## Independent projects
 
-**Backend & languages:** Scala, TypeScript, Go, Node.js, Java, Kotlin  
-**Distributed systems:** consensus, concurrency, retries, idempotency, event pipelines  
-**Data:** PostgreSQL, MySQL, Oracle, NoSQL  
-**Cloud & delivery:** AWS, Docker, Ansible, CI/CD, GitHub Actions  
-**Product engineering:** React, APIs, microservices, automated testing, production operations
+Each repository has setup instructions, design notes and tests.
+
+| Project | What it demonstrates | Stack |
+| --- | --- | --- |
+| [**Ledger**](https://github.com/marcus-girolneto/ledger) | Double-entry accounting service. PostgreSQL enforces balanced postings and immutable history; idempotency and concurrency tests cover duplicate requests and competing withdrawals. | TypeScript, Fastify, PostgreSQL |
+| [**Hookrelay**](https://github.com/marcus-girolneto/hookrelay) | Durable webhook delivery: HMAC signatures (Standard Webhooks), retries with backoff, idempotency, dead-letter replay, multi-instance workers with `SKIP LOCKED`. | Go, PostgreSQL |
+| [**Witness**](https://github.com/marcus-girolneto/witness) | Tamper-evident transparency log: RFC 6962 Merkle inclusion and consistency proofs, Ed25519 signed checkpoints, split-view monitor. | Go |
+| [**Rolecall**](https://github.com/marcus-girolneto/rolecall) | Permission tests for AI agents: who can make your agent do what? Declarative policies, adversarial prompts, pass/fail reports. | TypeScript |
+| [**Agent Reliability Lab**](https://github.com/marcus-girolneto/agent-reliability-lab) | Evaluates tool-using incident-response agents with evidence-grounded scoring, fault injection and reproducible traces. | Python |
+| [**Agent Engineering Kit**](https://github.com/marcus-girolneto/agent-engineering-kit) | Executable template for coding-agent workflows: reproducible setup, evidence-based reviews, security checks, tested API. | Python |
+| [**Beacon**](https://github.com/marcus-girolneto/beacon) | Privacy-friendly analytics collector: batching with backpressure, PostgreSQL `COPY` sink, UTM attribution. | Go |
+| [**Audit Trail Lab**](https://github.com/marcus-girolneto/audit-trail-lab) | Hash-chained audit records, trusted checkpoints and adversarial verification tests. | TypeScript |
+| [**Linkpulse**](https://github.com/marcus-girolneto/linkpulse) · [**Utmly**](https://github.com/marcus-girolneto/utmly) | Concurrent broken-link checker with per-host rate limits; campaign link shortener with async click analytics. | Go |
+
+### Akibo (closed source)
+
+AI personal-finance assistant on WhatsApp and Telegram, with voice replies and a Next.js dashboard. Agent loop with schema-validated tools and explicit confirmations; **47 automated money-integrity invariants** that check balances, card statements and net position to the cent on every release and nightly in production; statement import from OFX, CSV, PDF and photos with reconciliation; PostgreSQL row-level security and encrypted backups. TypeScript, Node.js, Hono, PostgreSQL, Drizzle, Redis/BullMQ. Happy to walk through the architecture in a call.
+
+---
+
+## Open-source contributions
+
+- [**Tessellation**](https://github.com/Constellation-Labs/tessellation), Constellation's Scala node software: consensus, snapshot rollback and recovery, L1 synchronization, state proofs, delegated staking and Merkle Patricia Trie performance.
+- [**Gate Connect**](https://github.com/Constellation-Labs/gate-connect-app), desktop app and CLI that connect AI developer tools to Constellation Gate, keeping credentials in the OS secure store.
+- 600+ merged pull requests across Constellation's public repositories (2022–2026).
+
+---
+
+## Stack
+
+**Languages:** TypeScript, Scala, Python, Go, Java, Kotlin
+**Backend:** Node.js, Fastify, Hono, PostgreSQL, Redis, REST, event pipelines, background jobs
+**Distributed systems:** consensus, state recovery, synchronization, Merkle proofs, idempotency, incident response
+**AI:** agent harnesses, tool calling, MCP, RAG, evaluations, prompt-injection defense
+**Delivery:** AWS, Docker, Ansible, GitHub Actions, Prometheus/Grafana
 
 ## Education
 
-**B.S. in Computer Engineering**, Pontifícia Universidade Católica de Goiás (PUC-GO).
+B.Eng. Computer Engineering, Pontifícia Universidade Católica de Goiás · Rocketseat GoStack bootcamp
 
-Most of my professional work lives in employer-owned repositories. This profile describes my contributions without exposing proprietary code or internal data.
-
----
-
-**Interested in backend, protocol, distributed systems or AI security roles?** [Get in touch](https://www.linkedin.com/in/marcusgirolneto/).
+Most of my professional work lives in employer-owned or private repositories. This profile describes it without exposing proprietary code or data.
